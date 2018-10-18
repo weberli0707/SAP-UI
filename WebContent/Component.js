@@ -1,6 +1,12 @@
 sap.ui.define([ 
 	"sap/ui/core/UIComponent", 
-	"sap/ui/model/json/JSONModel" 
+	"sap/ui/demoapps/rta/freestyle/controller/Application",
+	"sap/ui/fl/FakeLrepConnectorLocalStorage",
+	"sap/ui/model/odata/v2/ODataModel",
+	"sap/ui/demoapps/rta/freestyle/localService/mockserver",
+	"sap/ui/model/json/JSONModel",
+	"sap/ui/demoapps/rta/freestyle/util/SmartLink",
+	"sap/ui/rta/Utils"
 ], function(UIComponent, JSONModel) {
 			"use strict";
 
