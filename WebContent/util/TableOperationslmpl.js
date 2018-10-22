@@ -3,17 +3,8 @@ sap.ui.define([
 	"sap/ui/model/Sorter",
 	"sap/ui/model/Filter",
 	"sap/ui/model/FilterOperator"
-<<<<<<< HEAD
 ], function(BaseObject,Sorter,Filter,FilterOperator) {
-	"use strict";
-	
-	return Object.extend("sap.ui.demoapps.rta.freestyle.util.TableOperationsImpl",{
-		
-	});
-});
-=======
-], function(Object, Sorter, Filter, FilterOperator) {
-	"use strict";
+	"use strict";	
 
 	return Object.extend("sap.ui.demoapps.rta.freestyle.util.TableOperationsImpl", {
 		// This oject provides functions to faciliate sorting, filtering, grouping and seraching of tables.
@@ -287,4 +278,3 @@ sap.ui.define([
 		}
 	});
 });
->>>>>>> branch 'master' of https://github.com/weberli0707/SAP-UI.git
