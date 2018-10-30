@@ -1,4 +1,0 @@
-<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m"
-		controllerName="sap.ui.demoapps.rta.freestyle.controller.App">
-
-</mvc:View>
